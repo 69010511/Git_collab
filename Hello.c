@@ -12,7 +12,7 @@ int greeting(const char *name)
 	printf("Hello, %s!\n", name);
 	return 0;
 }
-int farewell(const char *name)
+int farewell(const char *name)// Print a farewell message for the specified user
 {
 printf("Goodbye, %s!\n", name);
 return 0;
