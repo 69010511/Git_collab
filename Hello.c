@@ -19,7 +19,7 @@ int farewell(const char *name)// Print a farewell message for the specified user
 printf("Goodbye, %s!\n", name);
 return 0;
 }
-int checkin(const char *name)
+int checkin(const char *name)// Print a check in message forthe specified user
 {
 printf("%s are checked in\n", name);
 return 0;
